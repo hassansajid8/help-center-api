@@ -2,8 +2,9 @@ import { db } from "./db";
 
 export const newCard = async (title: string, body: string) => {
 
-    const checkIfExists = getSpecificCard(title);
-    if (checkIfExists != null) {
+    const getIfExists = getSpecificCard(title);
+
+    if (await getIfExists != null) {
         return 400;
     }
 

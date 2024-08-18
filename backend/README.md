@@ -3,7 +3,7 @@ Built using ExpressJS and PrismaORM
 
 ## Prerequisites
 
-You need a postgresql server.
+You will need a postgresql server.
 
 ## Getting Started
 
@@ -18,8 +18,10 @@ pnpm i
 Next, create a .env file and add your database url
 
 ```bash
-DATABASE_URL = # Your mysql database url
+DATABASE_URL = # Your postgresql database url
 ```
+
+*If you want to use a server other than postgresql, update the provider field in prisma/schema.prisma file.*
 
 Now you can run the development server using nodemon
 

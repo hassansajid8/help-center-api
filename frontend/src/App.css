@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.search-input:focus{
+  outline: none;
+}
+
+.btn{
+  background-color: #2a2a2a;
+  transition: all 0.3s;
+}
+
+.btn:hover{
+  background-color: #000000;
+}
+
+h4{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+ul{
+  margin: 20px 0;
+  font-size: 0.9rem;
+}
+
+li{
+  margin: 4px 0;
+}
